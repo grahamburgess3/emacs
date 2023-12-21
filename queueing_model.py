@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Created on Mon Jul 10 12:22:20 2023
 
@@ -27,7 +25,7 @@ class queue(object):
         - server_build_rate and shelter_build_rate should have the same number of entries as num_annual_buildpoints, and this number should tally (roughly) with build_frequency_weeks. For example, if build_freq_weeks is 9, then it will take 54 weeks for this to happen 6 times, so things will start being out of sync after 5 years of model time, which is OK as long as you don't model so far ahead (or if the queue is always empty before 5 years, say.)
         - Care should also be taken if changing the step size d from 1 day, which is what it was intially set up for. 
 
-        Returns
+        Returns48.9429980743831
         -------
         None.
 
